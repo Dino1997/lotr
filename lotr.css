@@ -1,0 +1,85 @@
+nav{
+    display:flex;
+    justify-content: space-between;
+}
+ul{
+    display: flex;
+    list-style: none;
+}
+
+/*---header----*/
+
+.header li{
+    margin: 25px;
+}
+h1{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    
+}
+/*----global----*/
+body{
+    background-image: url(bglsda.jpg);
+    background-repeat: no-repeat;
+    color: ghostwhite;
+    font-style: italic;
+}
+
+/*----Les films----*/
+
+.film{
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+}
+
+.card-1 {
+    width: 300px;
+}
+
+.card-1 img{
+    width: 100%;
+}
+
+/*----synopsis----*/
+
+.synopsis{
+    text-align: center;
+    font-weight: bold;
+    font-weight: unset;
+}
+
+/*----personnages principaux*/
+.perso h2 {
+    text-align: center;
+    margin: 30px;
+}
+
+.container-perso {
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+}
+
+.perso-1 {
+    width: 150px;
+    height: 200px;
+}
+
+.perso-1 img {
+    width: 100%;
+    height: 100%;
+    border-radius: 50px;
+}
+
+h2{
+    text-align: center;
+}
+
+.container-punchline{
+    margin-top: 150px;
+}
+
+.repliques{
+    background-image: url(bgglsda.jpg);
+    
+}
